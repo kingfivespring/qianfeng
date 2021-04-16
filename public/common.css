@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, 
+html{
+    height: 100%;
+}
+ul, 
+li{
+    list-style: none;
+}
+image{
+    display: block;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#content{
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px;
+}
